@@ -1,6 +1,6 @@
 #Login view
 
-username/email
+username/email.
 password
 Business/Individual : drop down or check box
 Submit button
