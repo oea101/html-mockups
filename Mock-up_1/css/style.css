@@ -6,11 +6,19 @@ h1, h2, h3, h4, h5, h6, p {
 	font-family: 'Duru Sans', Open Sans Light;
 }
 header {
+<<<<<<< HEAD
 	background:url() no-repeat;
 	height:700px;
 	width:100%;
 	padding-top:50px;
 	color: #333333;
+=======
+/*	background:url(../img/bg-header.jpg) no-repeat; */
+	height:700px;
+	width:100%;
+	padding-top:50px;
+	color: #000000;
+>>>>>>> df1126ee3409e4c83e31a58a4321537c2a530a25
 }
 header h1 {
 	font-size: 60px;
@@ -32,13 +40,12 @@ header h1 {
 }
 #about {
 	padding-top: 50px;
-	padding-bottom: 50px;
 	color: #777777;
 }
 #about .row {
-	margin-bottom: 50px;
 	text-align: center;
 }
+
 #about .glyphicon {
 	font-size: 32px;
 	color: #428bca;
@@ -51,6 +58,7 @@ header h1 {
 }
 #about h3 {
 	margin-bottom: 20px;
+	text-align:left;
 }
 #about .glyphicon {
 	-webkit-transition:0.3s;
