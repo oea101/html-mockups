@@ -6,11 +6,11 @@ h1, h2, h3, h4, h5, h6, p {
 	font-family: 'Duru Sans', Open Sans Light;
 }
 header {
-	background:url(../img/bg-header.jpg) no-repeat;
+	background:url() no-repeat;
 	height:700px;
 	width:100%;
 	padding-top:50px;
-	color: #fff;
+	color: #333333;
 }
 header h1 {
 	font-size: 60px;
