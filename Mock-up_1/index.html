@@ -1,537 +1,192 @@
 <!DOCTYPE html>
 <html>
-<<<<<<< HEAD
-
-<head>
-  <title>KapukAlas - Multipurpose template</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Bootstrap -->
-  <link href="css/bootstrap.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
-</head>
-
-<body>
-
-
-
-  <!-- Nav Bar-->
-  <div id="nav">
-    <nav class="navbar navbar-default navbar-static affix-top" role="navigation">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">KapukAlas</a>
-        </div>
-        <!-- Nav Bar -blue 
-      <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Homepage</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Blogs</a></li>
-            <li><a href="#">Contact us</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-      </div>
-    </nav>
-  </div>
-
-  <!--header-->
-  <header>
-    <div class="container">
-      <center>
-        <h1>Welcome to Ekonium</h1>
-        <h3></h3>
-        <div style="margin-top:30px;">
-          <!--input container-->
-          <div class="container-fluid">
-            <div class="row">
-              <div class="form-group">
-                <label>First Name</label>
-                <input type="text" name="firstName" data-ng-model="model.firstName" />
-              </div>
-
-              <div class="form-group">
-                <label>Last Name</label>
-                <input type="text" name="lastName" data-ng-model="model.lastName" />
-              </div>
-
-              <div class="form-group">
-                <label>email</label>
-                <input type="text" name="firstName" data-ng-model="model.email" />
-              </div>
-
-              <div class="form-group">
-                <label>user name</label>
-                <input type="text" name="firstName" data-ng-model="model.userName" />
-              </div>
-
-              <div class="form-group">
-                <label>password</label>
-                <input type="text" name="firstName" data-ng-model="model.password" />
-              </div>
-
-              <div class="form-group">
-                <label>verify password</label>
-                <input type="text" name="firstName" data-ng-model="model.verifyPassword" />
-              </div>
-
-              <div class="form-group">
-                <input type="submit" name="submit" data-ng-click="submit()" value="submit" />
-                <input type="submit" name="cancel" data-ng-click="cancel()" value="cancel" />
-              </div>
+    <head>
+        <title>KapukAlas - Multipurpose template</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+	
+    <body>
+        <!-- Nav Bar-->	
+       <div id="nav">
+		<!--<nav class="navbar navbar-inverse navbar-fixed affix-top" role="navigation"> -->
+		<nav class="navbar navbar-default navbar-custom navbar-fixed-top affix-top" role="navigation">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">Ekonium</a>
+                    </div> 
+					       <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
             </div>
-          </div>
-          
-          <div class="container">  <!--buttton-->
-            <a href="learnmore.html" class="btn btn-primary btn-lg" role="button">Learn more</a>
-            <a href="" class="btn btn-default btn-lg" role="button">Sign up now</a>
-          </div>
-      </center>
-      </div>
-  </header>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Sign in</button>
+          </form>
+        </div>
+                </div>
+            </nav>
+        </div>
 
+<header>
+	
+		 
 
-
-
-  <section id="about" class="container">
-    <div class="row">
-      <div class="col-md-3">
-        <span class="glyphicon glyphicon-send"></span>
-        <br>
-        <h3>Awesome Feature</h3> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a tincidunt elit. Aliquam porta nibh at enim
-        luctus, auctor consequat dolor vehicula.
-      </div>
-      <div class="col-md-3">
-        <span class="glyphicon glyphicon-heart"></span>
-        <br>
-        <h3>Build with love</h3> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a tincidunt elit. Aliquam porta nibh at enim
-        luctus, auctor consequat dolor vehicula.
-      </div>
-      <div class="col-md-3">
-        <span class="glyphicon glyphicon-phone"></span>
-        <br>
-        <h3>Responsive Layout</h3> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a tincidunt elit. Aliquam porta nibh at enim
-        luctus, auctor consequat dolor vehicula.
-      </div>
-      <div class="col-md-3">
-        <span class="glyphicon glyphicon-tint"></span>
-        <br>
-        <h3>Customizeable</h3> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a tincidunt elit. Aliquam porta nibh at enim
-        luctus, auctor consequat dolor vehicula.
-      </div>
+	<div class="loginbox radius">
+	
+        <div class="loginform"> 	
+        	<form id="login" action="" method="post">
+            <p>
+                    <input type="text" id="username" name="username" placeholder="First Name" value="" class="radius mini" /> 
+					<input type="text" id="username" name="username" placeholder="Last Name" value="" class="radius mini" />
+            </p>
+            	<p>
+                    <input type="text" id="username" name="username" placeholder="Your Email" value="" class="radius" />
+                </p>
+                <p>
+                    <input type="text" id="password" name="password" placeholder="Re-enter Email" class="radius" />
+                </p>
+                <p>
+                    <input type="password" id="password" name="password" placeholder="New Password" class="radius" />
+                </p>
+                <p>
+                	<button class="radius title" name="client_login">Sign Up</button>
+                </p>
+            </form>
+        </div><!--loginform-->
     </div>
-  </section>
 
-
-
-  <section id="sponsor">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3">
-          <img src="img/cc.png">
-        </div>
-        <div class="col-md-3">
-          <img src="img/tf.png">
-        </div>
-        <div class="col-md-3">
-          <img src="img/gr.png">
-        </div>
-        <div class="col-md-3">
-          <img src="img/pd.png">
-        </div>
-      </div>
-      <h3>Donec sed sapien</h3> Morbi felis lectus, ultricies nec tellus eu, faucibus eleifend lectus. In molestie augue leo, id imperdiet ante imperdiet
-      at. Quisque ultrices neque sit amet felis tincidunt tristique at sed nisi. Class aptent taciti sociosqu ad litora torquent
-      per conubia nostra, per inceptos himenaeos. Ut suscipit ut massa in ultricies. Nunc nec tincidunt nunc, ut consectetur
-      lorem. Sed non justo nisl.
-      <div style="margin-top:40px;">
-        <a href="" class="btn btn-primary btn-lg" role="button">Learn more</a>
-        <a href="" class="btn btn-default btn-lg" role="button">Sign up now</a>
-      </div>
-    </div>
-  </section>
-
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3">
-          <h4>KapukAlas</h4>
-          <p>Duis viverra suscipit vehicula. Aenean eu massa leo. Sed ullamcorper pretium risus eu scelerisque. Mauris venenatis
-            consequat ultrices. Quisque fringilla sed lacus eu volutpat.</p>
-        </div>
-        <div class="col-md-3">
-          <h4>Our location</h4>
-          <div class="row">
-            <div class="col-md-1"><span class="glyphicon glyphicon-map-marker"></span></div>
-            <div class="col-md-10">Vestibulum placerat, enim sit amet congue aliquet.</div>
-          </div>
-          <br>
-          <div class="row">
-            <div class="col-md-1"><span class="glyphicon glyphicon-envelope"></span></div>
-            <div class="col-md-10">varius@nibh.lectus.com</div>
-          </div>
-          <br>
-          <div class="row">
-            <div class="col-md-1"><span class="glyphicon glyphicon-earphone"></span></div>
-            <div class="col-md-10">08888-72738-23</div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <h4>Latest blogs</h4>
-          <div class="row">
-            <div class="col-md-1"><span class="glyphicon glyphicon-pencil"></span></div>
-            <div class="col-md-10">Maecenas suscipit in est a placerat. Curabitur semper sed nibh sed egestas. </div>
-          </div>
-          <br>
-          <div class="row">
-            <div class="col-md-1"><span class="glyphicon glyphicon-pencil"></span></div>
-            <div class="col-md-10">Maecenas suscipit in est a placerat. Curabitur semper sed nibh sed egestas. </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <h4>Subscribe</h4>
-          <input type="text" class="form-control" placeholder="your email address">
-        </div>
-      </div>
-      </div>
-  </footer>
-
-  <footer id="copyright">
-    <p>Copright by @andreyyann 2014, All right reserved.</p>
-  </footer>
-
-  <script src="js/jquery.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script>
-    $(function() 
-{
-  $('a[href*=#]:not([href=#])').click(function() 
-  {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) 
-	{
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-});
-
-      $(function() {
-  //navbar affix
-  $('#nav').affix({
-    offset: {
-      top: $('header').height()
-    }
-  });
-});
-
-      $('#nav .navbar-nav li>a').click(function(){
-  var link = $(this).attr('href');
-  var posi = $(link).offset().top+20;
-  $('body,html').animate({scrollTop:posi},700);
-})
-
-
-      $( document ).ready(function() {
-    $("[rel='tooltip']").tooltip();    
+</header>	
+		 
  
-    $('.thumbnail').hover(
-        function(){
-            $(this).find('.caption').fadeIn(250);
-        },
-        function(){
-            $(this).find('.caption').fadeOut(205);
-        }
-    ); 
-});
-  </script>
-</body>
-
-=======
-	<head>
-		<title>KapukAlas - Multipurpose template</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<!-- Bootstrap -->
-		<link href="css/bootstrap.css" rel="stylesheet">
-		<link href="css/style.css" rel="stylesheet">
-	</head>
-	<body>
-
-		<!-- Nav Bar-->
-		<div id="nav">
-			<nav class="navbar navbar-default navbar-static affix-top" role="navigation">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="container">
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<a class="navbar-brand" href="#">KapukAlas</a>
-					</div>
-					<!-- Nav Bar -blue
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<ul class="nav navbar-nav"></ul>
-						<ul class="nav navbar-nav navbar-right">
-							<li>
-								<a href="#">Homepage</a>
-							</li>
-							<li>
-								<a href="#">About us</a>
-							</li>
-							<li>
-								<a href="#">Portfolio</a>
-							</li>
-							<li>
-								<a href="#">Blogs</a>
-							</li>
-							<li>
-								<a href="#">Contact us</a>
-							</li>
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li>
-										<a href="#">Action</a>
-									</li>
-									<li>
-										<a href="#">Another action</a>
-									</li>
-									<li>
-										<a href="#">Something else here</a>
-									</li>
-									<li class="divider"></li>
-									<li>
-										<a href="#">Separated link</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</div><!-- /.navbar-collapse -->
-				</div>
-			</nav>
-		</div>
-		<header>
-			<div class="container">
-				<div class ="row">
-					<div class ="col-xs-6">
-						<section id="about" class="container">
-							<div class="row">
-								<div class = "row">
-								<div class="col-xs-6">
-									<div class = "row">
-									<div class="col-xs-2">
-									<span class="glyphicon glyphicon-send"></span>
-									</div>
-									<div class="col-xs-10">
-									<h3>Awesome Feature</h3>
-									</div>
-									</div>
-								</div>
-								</div>
-								<div class="row">
-								<div class="col-xs-6">
-									<div class = "row">
-									<div class="col-xs-2">
-									<span class="glyphicon glyphicon-send"></span>
-									</div>
-									<div class="col-xs-10">
-									<h3>Awesome Feature</h3>
-									</div>
-									</div>
-								</div>
-								</div>
-							</div>
-						</section>
-					</div>
-					<div class ="col-xs-6">
-						<div class = "form-group">
-							<label>First Name</label>
-							<input type="text" name ="firstName" class = "form-control" data-ng-model ="model.firstName" />
-						</div>
-						<div>
-							<label>Last Name</label>
-							<input type ="text" name ="lastName" class = "form-control" data-ng-model ="model.lastName" />
-						</div>
-						<div>
-							<label>email</label>
-							<input type ="text" name ="firstName" class = "form-control" vdata-ng-model ="model.email" />
-						</div>
-						<div>
-							<label>user name</label>
-							<input type ="text" name ="firstName" class = "form-control" data-ng-model ="model.userName" />
-						</div>
-						<div>
-							<label>password</label>
-							<input type ="text" name ="firstName" class = "form-control" data-ng-model ="model.password" />
-						</div>
-						<div>
-							<label>verify password</label>
-							<input type ="text" name ="firstName"class = "form-control" data-ng-model ="model.verifyPassword" />
-						</div>
-						<div>
-							<input type ="submit" name ="submit" data-ng-click ="submit()" value ="submit" class= "btn btn-primary btn-lg" />
-							<input type ="submit" name ="cancel" data-ng-click ="cancel()" value ="cancel" class= "btn btn-primary btn-lg" />
-						</div>
-					</div>
-				</div>
-				<div class ="row">
-					<center>
-						<div style="margin-top:30px;">
-							<!--buttton-->
-							<a href="" class="btn btn-primary btn-lg" role="button">Learn more</a>
-							<a href="" class="btn btn-default btn-lg" role="button">Sign up now</a>
-						</div>
-					</center>
-				</div>
-			</div>
-		</header>
-			<footer>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-3">
-						<h4>KapukAlas</h4>
-						<p>
-							Duis viverra suscipit vehicula. Aenean eu massa leo. Sed ullamcorper pretium risus eu scelerisque. Mauris venenatis consequat ultrices. Quisque fringilla sed lacus eu volutpat.
-						</p>
-					</div>
-					<div class="col-md-3">
-						<h4>Our location</h4>
-						<div class="row">
-							<div class="col-md-1">
-								<span class="glyphicon glyphicon-map-marker"></span>
-							</div>
-							<div class="col-md-10">
-								Vestibulum placerat, enim sit amet congue aliquet.
-							</div>
-						</div>
-						<br>
-						<div class="row">
-							<div class="col-md-1">
-								<span class="glyphicon glyphicon-envelope"></span>
-							</div>
-							<div class="col-md-10">
-								varius@nibh.lectus.com
-							</div>
-						</div>
-						<br>
-						<div class="row">
-							<div class="col-md-1">
-								<span class="glyphicon glyphicon-earphone"></span>
-							</div>
-							<div class="col-md-10">
-								08888-72738-23
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3">
-						<h4>Latest blogs</h4>
-						<div class="row">
-							<div class="col-md-1">
-								<span class="glyphicon glyphicon-pencil"></span>
-							</div>
-							<div class="col-md-10">
-								Maecenas suscipit in est a placerat. Curabitur semper sed nibh sed egestas.
-							</div>
-						</div>
-						<br>
-						<div class="row">
-							<div class="col-md-1">
-								<span class="glyphicon glyphicon-pencil"></span>
-							</div>
-							<div class="col-md-10">
-								Maecenas suscipit in est a placerat. Curabitur semper sed nibh sed egestas.
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3">
-						<h4>Subscribe</h4>
-						<input type="text" class="form-control" placeholder="your email address">
-					</div>
-				</div>
-			</div>
-		</footer>
-
-		<footer id="copyright">
-			<p>
-				Copright by @andreyyann 2014, All right reserved.
-			</p>
-		</footer>
-
-		<script src="js/jquery.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script>
-			$(function() {
-				$('a[href*=#]:not([href=#])').click(function() {
-					if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-						var target = $(this.hash);
-						target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-						if (target.length) {
-							$('html,body').animate({
-								scrollTop : target.offset().top
-							}, 1000);
-							return false;
-						}
-					}
-				});
-			});
-
-			$(function() {
-				//navbar affix
-				$('#nav').affix({
-					offset : {
-						top : $('header').height()
-					}
-				});
-			});
-
-			$('#nav .navbar-nav li>a').click(function() {
-				var link = $(this).attr('href');
-				var posi = $(link).offset().top + 20;
-				$('body,html').animate({
-					scrollTop : posi
-				}, 700);
-			})
-
-			$(document).ready(function() {
-				$("[rel='tooltip']").tooltip();
-
-				$('.thumbnail').hover(function() {
-					$(this).find('.caption').fadeIn(250);
-				}, function() {
-					$(this).find('.caption').fadeOut(205);
-				});
-			});
-		</script>
-	</body>
->>>>>>> df1126ee3409e4c83e31a58a4321537c2a530a25
+		
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h4>KapukAlas</h4>
+                        <p>
+                            Duis viverra suscipit vehicula. Aenean eu massa leo. Sed ullamcorper pretium risus eu scelerisque. Mauris venenatis consequat ultrices. Quisque fringilla sed lacus eu volutpat.
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <h4>Our location</h4>
+                        <div class="row">
+                            <div class="col-md-1">
+                                <span class="glyphicon glyphicon-map-marker"></span>
+                            </div>
+                            <div class="col-md-10">
+                                Vestibulum placerat, enim sit amet congue aliquet.
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-1">
+                                <span class="glyphicon glyphicon-envelope"></span>
+                            </div>
+                            <div class="col-md-10">
+                                varius@nibh.lectus.com
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-1">
+                                <span class="glyphicon glyphicon-earphone"></span>
+                            </div>
+                            <div class="col-md-10">
+                                08888-72738-23
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h4>Latest blogs</h4>
+                        <div class="row">
+                            <div class="col-md-1">
+                                <span class="glyphicon glyphicon-pencil"></span>
+                            </div>
+                            <div class="col-md-10">
+                                Maecenas suscipit in est a placerat. Curabitur semper sed nibh sed egestas.
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-1">
+                                <span class="glyphicon glyphicon-pencil"></span>
+                            </div>
+                            <div class="col-md-10">
+                                Maecenas suscipit in est a placerat. Curabitur semper sed nibh sed egestas.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h4>Subscribe</h4>
+                        <input type="text" class="form-control" placeholder="your email address">
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <footer id="copyright">
+            <p>
+                Copright by @andreyyann 2014, All right reserved.
+            </p>
+        </footer>
+        <script src="js/jquery.js">
+        </script>
+        <script src="js/bootstrap.min.js">
+        </script>
+<!--         <script>
+            $(function(){
+                $('a[href*=#]:not([href=#])').click(function(){
+                    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                        var target = $(this.hash);
+                        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                        if (target.length) {
+                            $('html,body').animate({
+                                scrollTop: target.offset().top
+                            }, 1000);
+                            return false;
+                        }
+                    }
+                });
+            });
+            
+            $(function(){
+                //navbar affix
+                $('#nav').affix({
+                    offset: {
+                        top: $('header').height()
+                    }
+                });
+            });
+            
+            $('#nav .navbar-nav li>a').click(function(){
+                var link = $(this).attr('href');
+                var posi = $(link).offset().top + 20;
+                $('body,html').animate({
+                    scrollTop: posi
+                }, 700);
+            })
+            
+            $(document).ready(function(){
+                $("[rel='tooltip']").tooltip();
+                
+                $('.thumbnail').hover(function(){
+                    $(this).find('.caption').fadeIn(250);
+                }, function(){
+                    $(this).find('.caption').fadeOut(205);
+                });
+            });
+        </script> -->
+    </body>
 </html>
