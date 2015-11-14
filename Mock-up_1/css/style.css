@@ -1,10 +1,17 @@
-@import url(http://fonts.googleapis.com/css?family=Duru+Sans);
 body {
-	font-family: 'Duru Sans', sans-serif;
+	/*font-family: 'Duru Sans', sans-serif;*/
 	background: #F2F2F2 ;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Duru Sans', Open Sans Light;
+	font-family: Arial, Helvetica, sans-serif; 
+}
+div {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+@font-face {
+    font-family: logoFont;
+    src: url(../fonts/FACEBOLF.OTF);
 }
 
 input { 
@@ -57,6 +64,7 @@ header h1 {
 	/*text-align:right;*/
 	/*padding-top:100px;*/
 }
+
 ul.nav.nav-tabs.login-nav {
 	padding-left:60px;
 }
@@ -72,13 +80,64 @@ ul.nav.nav-tabs.login-nav {
 	
 }
 
-#navbar input.mini {
-	width:150px; 
+#logo {
+	text-decoration: none;
+	font-family: logoFont;
+	font-size: 42px;
+	color: #FFFFFF;		
 }
 
-#navbar  input.mini.left { 
-	margin-right:12px
+/** Navigation start **/
+#nav .navbar {
+	padding-top: 8px;
+	padding-bottom: 8px;
 }
+
+#nav .navbar-header {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+#nav .navbar-collapse.collapse {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;	
+} 
+
+
+#nav .navbar-collapse.collapse input.mini {
+	margin-top :0px;	
+	width:150px; 
+	margin-bottom: 0px;
+}
+
+#nav .navbar-collapse.collapse  input.mini.left { 
+	margin-top :0px;
+	margin-right:12px;
+	margin-bottom: 0px;	
+}
+
+#nav .navbar-collapse.collapse button {
+	margin-top :0px;	
+}
+
+#nav.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:10;
+    padding-bottom: 0px;
+}
+.navbar-custom {
+    color: #FFFFFF;
+    background-image:-webkit-linear-gradient(top, #3399FF, #4F67A4);
+    padding-bottom: 0px;
+}
+
+/** End Navigation start **/
 
 .loginbox input.mini { 
 	width:195px; 
@@ -308,17 +367,6 @@ footer h4 {
 	}
 }
 
-#nav.affix {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index:10;
-}
-.navbar-custom {
-    color: #FFFFFF;
-    background-image:-webkit-linear-gradient(top, #3399FF, #4F67A4); 
-    padding-bottom: 8px;
-}
 
 
 
