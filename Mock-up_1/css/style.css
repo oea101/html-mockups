@@ -77,7 +77,7 @@ ul.nav.nav-tabs.login-nav {
 #nav .navbar {
 	padding-top: 0px;
 	padding-bottom: 0px;
-	background-color: #cccccc 
+	background-color: #cccccc;	
 }
 
 #nav .navbar-header {
@@ -85,6 +85,10 @@ ul.nav.nav-tabs.login-nav {
 	padding-bottom: 0px;
 	margin-bottom: 0px;
 	margin-top: 0px;
+}
+
+#nav .navbar-inverse {
+	border-bottom: 0.3px solid #333;	
 }
 
 #nav .navbar-collapse.collapse {
@@ -118,12 +122,22 @@ ul.nav.nav-tabs.login-nav {
     width: 100%;
     z-index:10;
     padding-bottom: 0px;
+  
 }
 .btn-success {
-    color: #ffffff;
-    background-color: rgb(57, 143, 236);
-    border-color: #428BCA;
+	background: #428bca;
+	background-image:-webkit-linear-gradient(top, #3399FF, #4F67A4); 
+	width: 75px;
+	border: 1px solid #1D3871; 
 }
+
+.btn-success:hover {
+	background: #428bca;
+	background-image:-webkit-linear-gradient(top, #3399FF, #4F67A4); 
+	border: 1px solid #1D3871; 
+
+}
+
 a:hover, a:focus {
     color: #2a6496;
     text-decoration: underline;
@@ -150,7 +164,7 @@ a:hover, a:focus {
 	width: 408px;  
 	outline: none; 
 }
-.loginbox button { 
+button { 
 	background: #428bca;
 	background-image:-webkit-linear-gradient(top, #3399FF, #4F67A4); 
 	padding: 10px 20px; 
@@ -167,11 +181,14 @@ a:hover, a:focus {
 	cursor: pointer;
 }
 
+.headlines {
+	margin-top : 50px;
+	margin-bottom : 20px;
+}
 
 .headline-img{
 	padding-bottom: 20px;
-	color: #428bca;
-	padding-top: 50px;
+	padding-top: 20px;
 	font-size: 50px;
 }
 
@@ -249,7 +266,7 @@ a:hover, a:focus {
 /*end abouts */
 
 footer {
-	background: #333333;
+	background: #FFFFFF;
 	padding-top: 40px;
 	padding-bottom: 40px;
 	color: #ffffff;
@@ -261,9 +278,11 @@ footer h4 {
 #copyright {
 	padding-bottom: 20px;
 	padding-top: 20px;
-	background: #222222;
-	color: #ffffff;
-	text-align: center;
+	background: #F2F2F2;
+	color: #000000;
+	border-top: 0.3px solid rgba(51, 51, 51, 0.23);
+    border-top-width: 0.3px;
+    text-align: center;
 }
 
 
