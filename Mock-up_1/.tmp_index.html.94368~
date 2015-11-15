@@ -11,11 +11,11 @@
         <!-- Nav Bar-->
         <header>
             <div id="nav">
+                <!--<nav class="navbar navbar-inverse navbar-fixed affix-top" role="navigation"> -->
                 <nav class="navbar navbar-default navbar-inverse navbar-fixed-top affix-top" role="navigation">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="container" style ="width:1050px; padding-bottom: 0px;">
                         <div class="navbar-header">
-                          
                             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                                 <span class="sr-only">Toggle navigation</span>
                                 <span class="icon-bar"></span>
@@ -45,29 +45,29 @@
             <div class = "row">
                 <div class ="col-md-7 headlines">
                     <div class = "row">
-                        <div class="col-xs-2 glyphicon glyphicon-file headline-img top" aria-hidden="true">
+                        <div class="col-xs-6 glyphicon glyphicon-file headline-img top" aria-hidden="true">
                         </div>
-                        <div class = "col-xs-5 headline-txt top">
+                        <div class = "col-xs-6 headline-txt top">
                             <span>Manage Documents on the fly</span>
                         </div>
                     </div>
                     <div class = "row">
-                        <div class="col-xs-2 glyphicon glyphicon-folder-open headline-img middle" aria-hidden="true">
+                        <div class="col-xs-6 glyphicon glyphicon-folder-open headline-img middle" aria-hidden="true">
                         </div>
-                        <div class = "col-xs-5 headline-txt middle">
+                        <div class = "col-xs-6 headline-txt middle">
                             <span>Organize on the go </span>
                         </div>
                     </div>
                     <div class = "row">
-                        <div class="col-xs-2 glyphicon glyphicon-hdd headline-img bottom" aria-hidden="true">
+                        <div class="col-xs-6 glyphicon glyphicon-hdd headline-img bottom" aria-hidden="true">
                         </div>
-                        <div class = "col-xs-5 headline-txt bottom">
+                        <div class = "col-xs-6 headline-txt bottom">
                             <span>Save and share inrealtime</span>
                         </div>
                     </div>
                 </div>
                 <!--reg form -->
-                <div class ="col-md-5 ">
+                <div class ="col-md-5">
                     <div class="loginbox radius">
                         <div class="loginform">
                             <ul class="nav nav-tabs login-nav">
@@ -104,7 +104,44 @@
             </div>
         </div>
         </div>
-        <!--added about sceem -->
+		
+		    <section id="about3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 feature">
+            <div class="row">
+              <div class="col-md-2">
+                <span class="glyphicon glyphicon-tint"></span>
+              </div>
+              <div class="col-md-10">
+                <h4>Color variations</h4>
+                Praesent gravida justo quis faucibus vulputate. Cras hendrerit varius dui, a molestie ligula imperdiet quis.
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-2">
+                <span class="glyphicon glyphicon-cloud"></span>
+              </div>
+              <div class="col-md-10">
+                <h4>Cloud assets</h4>
+                Praesent gravida justo quis faucibus vulputate. Cras hendrerit varius dui, a molestie ligula imperdiet quis.
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-2">
+                <span class="glyphicon glyphicon-bell"></span>
+              </div>
+              <div class="col-md-10">
+                <h4>Awesome components</h4>
+                Praesent gravida justo quis faucibus vulputate. Cras hendrerit varius dui, a molestie ligula imperdiet quis.
+              </div>
+            </div>
+            <a href="" class="btn btn-primary btn-lg pull-right" role="button">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+		<!--added about sceem -->
         <section id="about" class="container">
             <div class="row">
                 <div class="col-md-3">
@@ -114,7 +151,7 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a tincidunt elit. Aliquam porta nibh at enim luctus, auctor consequat dolor vehicula.
                 </div>
                 <div class="col-md-3">
-                    <span class="glyphicon glyphicon-cloud"></span>
+                    <span class="glyphicon glyphicon-heart"></span>
                     <br>
                     <h3>Build with love</h3>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a tincidunt elit. Aliquam porta nibh at enim luctus, auctor consequat dolor vehicula.
@@ -133,6 +170,7 @@
                 </div>
             </div>
         </section>
+		
         <footer style="margin-top: 32px">
             <div class="container">
                 <div class="row">
